@@ -355,10 +355,10 @@ $(document).ready(function () {
 	});
 	
 	$("#owl-clients").owlCarousel({
-		autoPlay: 5000,
+		autoPlay: 3000,
 		stopOnHover: true,
 		rewindNav: true,
-		items: 4,
+		items: 6,
 		itemsDesktopSmall: [1199, 4],
 		itemsTablet: [977, 3],
 		navigation: true,
