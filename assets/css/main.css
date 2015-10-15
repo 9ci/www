@@ -5983,7 +5983,7 @@ input:focus:-ms-input-placeholder {
 	.height-xs,
 	.height-sm,
 	#owl-main .item {
-		height: 480px;
+		height: 420px;
 	}
 	
 	#hero h1 {
@@ -6023,7 +6023,7 @@ input:focus:-ms-input-placeholder {
 	#owl-main .item,
 	#owl-main.height-md .item,
 	#owl-main.height-lg .item {
-		height: 380px;
+		height: 350px;
 	}
 	
 }
@@ -6070,11 +6070,25 @@ a.changecolor {
 .navbar .navbar-brand img {
 	-skrollr-animation-name: shrink-logo;
 }
+.navbar .navbar-collapse .navbar-menu{
+	-skrollr-animation-name: shrink-menu;
+}
+
+@-skrollr-keyframes shrink-menu {
+	40 {
+		padding-top: 8px;
+	}
+
+	300 {
+		padding-top: 0;
+	}
+}
+
 
 @-skrollr-keyframes shrink-header {
 	40 {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		-webkit-box-shadow: 0 10px 10px rgba(0,0,0,0);
 		   -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.0);
 				box-shadow: 0 10px 10px rgba(0,0,0,0);
@@ -6091,10 +6105,10 @@ a.changecolor {
 
 @-skrollr-keyframes shrink-logo {
 	40 {
-		max-height: 40px;
+		max-height: 70px;
 	}
 
 	300 {
-		max-height: 20px;
+		max-height: 40px;
 	}
 }

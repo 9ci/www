@@ -218,13 +218,13 @@ $(document).ready(function () {
 	});
 	
 	$("#owl-testimonials").owlCarousel({
-		autoPlay: 5000,
+		autoPlay: 4000,
 		stopOnHover: true,
 		navigation: true,
 		pagination: true,
 		singleItem: true,
 		addClassActive: true,
-		autoHeight: true,
+		autoHeight: false,
 		transitionStyle: "fadeInAfterOut",
 		navigationText: ["<i class='icon-left-open-mini'></i>", "<i class='icon-right-open-mini'></i>"]
 	});
@@ -359,8 +359,8 @@ $(document).ready(function () {
 		stopOnHover: true,
 		rewindNav: true,
 		items: 6,
-		itemsDesktopSmall: [1199, 4],
-		itemsTablet: [977, 3],
+		itemsDesktopSmall: [1199, 5],
+		itemsTablet: [977, 4],
 		navigation: true,
 		pagination: true,
 		navigationText: ["<i class='icon-left-open-mini'></i>", "<i class='icon-right-open-mini'></i>"]
